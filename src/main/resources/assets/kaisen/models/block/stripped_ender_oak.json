@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "kaisen:block/stripped_ender_oak_log_top",
+    "top": "kaisen:block/stripped_ender_oak_log_top",
+    "side": "kaisen:block/stripped_ender_oak_log",
+    "overlay": "kaisen:block/stripped_ender_oak_log",
+    "particle": "kaisen:block/stripped_ender_oak_log_top"
+  },
+  "render_type": "cutout"
+}

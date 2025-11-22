@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "kaisen:stripped_ender_oak",
+    "kaisen:ender_oak",
+    "kaisen:ender_oak_planks",
+    "kaisen:ender_workbench"
+  ]
+}

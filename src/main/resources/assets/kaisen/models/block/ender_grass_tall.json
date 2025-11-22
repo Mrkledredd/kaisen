@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "kaisen:block/end_tall_grass",
+    "particle": "kaisen:block/end_tall_grass"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kaisen:stripped_ender_oak"
+    }
+  ],
+  "result": {
+    "item": "kaisen:ender_oak_planks",
+    "count": 4
+  }
+}

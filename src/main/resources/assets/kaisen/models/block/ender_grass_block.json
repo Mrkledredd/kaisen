@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "kaisen:block/end_stone_grass_bot",
+    "top": "kaisen:block/end_stone_grass_top",
+    "side": "kaisen:block/end_stone_grass_side",
+    "overlay": "kaisen:block/end_stone_grass_side",
+    "particle": "kaisen:block/end_stone_grass_bot"
+  },
+  "render_type": "cutout_mipped"
+}

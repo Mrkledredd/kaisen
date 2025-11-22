@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "kaisen:ender_isl_3_str",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 26,
+    "separation": 25,
+    "salt": 449117116
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kaisen:block/stripped_ender_oak",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kaisen:block/stripped_ender_oak"
+    },
+    "axis=z": {
+      "model": "kaisen:block/stripped_ender_oak",
+      "x": 90
+    }
+  }
+}

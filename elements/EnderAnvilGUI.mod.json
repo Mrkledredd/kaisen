@@ -1,0 +1,211 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:WardensCore"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 135,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_anvil_gui_wardens_core_slot.png",
+          "use1Xscale": false,
+          "x": 135,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.NETHER_STAR"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 179,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_anvil_gui_nether_star_slot.png",
+          "use1Xscale": false,
+          "x": 179,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Blocks.DRAGON_EGG"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 225,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_anvil_gui_ender_dragon_egg_slot.png",
+          "use1Xscale": false,
+          "x": 225,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 271,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_ancil_gui_outcome_empty_img.png",
+          "use1Xscale": false,
+          "x": 241,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_ender_ancil_gui_outcome_empty_im",
+          "image": "ender_ancil_gui_outcome_empty_img.png",
+          "hoveredImage": "ender_ancil_gui_outcome_ready_img.png",
+          "onClick": {
+            "name": "EnderAnvilGUICraft"
+          },
+          "displayCondition": {
+            "name": "EnderAnvilGUIOutcome"
+          },
+          "x": 241,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_ancil_gui_step2_empty_img.png",
+          "use1Xscale": false,
+          "x": 196,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_ancil_gui_step2_ready_img.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "EnderAnvilGUIStep2"
+          },
+          "x": 196,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_ancil_gui_step1_empty_img.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_ancil_gui_step1_ready_img.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "EnderAnvilGUIStep1"
+          },
+          "x": 150,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ender_anvil",
+          "text": {
+            "fixedValue": "Ender Anvil"
+          },
+          "color": {
+            "value": -6750055,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 41,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

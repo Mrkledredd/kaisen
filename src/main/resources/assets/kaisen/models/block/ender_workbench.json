@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaisen:block/ender_oak_planks",
+    "up": "kaisen:block/ender_crafting_table_top",
+    "north": "kaisen:block/ender_crafting_table_side",
+    "east": "kaisen:block/ender_crafting_table_side",
+    "south": "kaisen:block/ender_crafting_table_side",
+    "west": "kaisen:block/ender_crafting_table_side",
+    "particle": "kaisen:block/ender_oak_planks"
+  },
+  "render_type": "cutout"
+}

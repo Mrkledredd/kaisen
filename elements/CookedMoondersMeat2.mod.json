@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:MoonderMeat"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:MoonderMeat"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:CookedMoonderMeat"
+    },
+    "name": "cooked_moonders_meat_2",
+    "namespace": "mod"
+  }
+}

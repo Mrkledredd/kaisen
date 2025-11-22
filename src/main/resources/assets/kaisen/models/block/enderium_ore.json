@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kaisen:block/enderium_ore",
+    "particle": "kaisen:block/enderium_ore"
+  },
+  "render_type": "cutout_mipped"
+}

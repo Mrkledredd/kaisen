@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kaisen:block/ender_oak_leaves",
+    "particle": "kaisen:block/ender_oak_leaves"
+  }
+}
