@@ -78,5 +78,6 @@
   "gui.kaisen.ender_workbench_gui.label_ender_workbench": "Ender Workbench",
   "item.kaisen.enderium.description_0": "§8§oRarity: §7D",
   "item.kaisen.enderium.description_1": "§8§oTier: §71",
-  "item.kaisen.enderium": "§7Enderium"
+  "item.kaisen.enderium": "§7Enderium",
+  "item.kaisen.kill": "Kill"
 }

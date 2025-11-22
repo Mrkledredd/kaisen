@@ -53,6 +53,7 @@ public class KaisenModTabs {
 			tabData.accept(KaisenModBlocks.ENDER_ANVIL.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(KaisenModItems.ENDERIUM_SWORD.get());
+			tabData.accept(KaisenModItems.KILL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(KaisenModItems.MOONDER_SPAWN_EGG.get());
 		}

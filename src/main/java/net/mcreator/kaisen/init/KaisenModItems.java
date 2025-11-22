@@ -38,6 +38,7 @@ public class KaisenModItems {
 	public static final RegistryObject<Item> MOONDERS_HORN;
 	public static final RegistryObject<Item> ENDER_WORKBENCH;
 	public static final RegistryObject<Item> ENDERIUM;
+	public static final RegistryObject<Item> KILL;
 	static {
 		WARDENS_CORE = REGISTRY.register("wardens_core", WardensCoreItem::new);
 		OMNIUS = REGISTRY.register("omnius", OmniusItem::new);
@@ -60,6 +61,7 @@ public class KaisenModItems {
 		MOONDERS_HORN = REGISTRY.register("moonders_horn", MoondersHornItem::new);
 		ENDER_WORKBENCH = block(KaisenModBlocks.ENDER_WORKBENCH);
 		ENDERIUM = REGISTRY.register("enderium", EnderiumItem::new);
+		KILL = REGISTRY.register("kill", KillItem::new);
 	}
 
 	// Start of user code block custom items

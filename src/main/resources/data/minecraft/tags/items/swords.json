@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "kaisen:kill",
     "kaisen:enderium_sword"
   ]
 }
