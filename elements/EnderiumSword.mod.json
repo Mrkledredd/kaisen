@@ -34,7 +34,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:RawEnderium"
+        "value": "CUSTOM:Enderium"
       }
     ],
     "immuneToFire": true,

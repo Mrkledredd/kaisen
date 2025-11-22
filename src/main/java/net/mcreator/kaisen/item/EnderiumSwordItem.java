@@ -37,7 +37,7 @@ public class EnderiumSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(KaisenModItems.RAW_ENDERIUM.get()));
+				return Ingredient.of(new ItemStack(KaisenModItems.ENDERIUM.get()));
 			}
 		}, 3, -2.4f, new Item.Properties().fireResistant());
 	}

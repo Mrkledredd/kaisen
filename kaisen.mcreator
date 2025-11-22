@@ -490,20 +490,6 @@
       "path": "~/Structures"
     },
     {
-      "name": "RawEnderium",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_enderium",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/kaisen/item/RawEnderiumItem.java",
-          "src/main/resources/assets/kaisen/models/item/raw_enderium.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "EnderiumOre",
       "type": "block",
       "compiles": true,
@@ -786,6 +772,20 @@
           "src/main/java/net/mcreator/kaisen/HideHudOverlay.java"
         ]
       }
+    },
+    {
+      "name": "Enderium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaisen/item/EnderiumItem.java",
+          "src/main/resources/assets/kaisen/models/item/enderium.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -867,10 +867,7 @@
       "block.kaisen.ender_grass_tall.description_0": "§8§oRarity: §7D",
       "block.kaisen.ender_grass_tall.description_1": "§8§oTier: §71",
       "item.kaisen.raw_enderium.description_3": "§8§othe great Warden\u0027s visceral chamber.",
-      "item.kaisen.raw_enderium.description_1": "§8§oTier: §71",
       "item.kaisen.raw_enderium.description_2": "§8§oThe artifact, a vestige plucked from",
-      "item.kaisen.raw_enderium.description_0": "§8§oRarity: §7D",
-      "item.kaisen.raw_enderium": "§7Raw Enderium",
       "block.kaisen.enderium_ore": "§7Enderium Ore",
       "block.kaisen.enderium_ore.description_0": "§8§oRarity: §7D",
       "block.kaisen.enderium_ore.description_1": "§8§oTier: §71",
@@ -900,7 +897,10 @@
       "block.kaisen.ender_workbench": "§7Ender Workbench",
       "block.kaisen.ender_workbench.description_1": "§8§oTier: §71",
       "block.kaisen.ender_workbench.description_0": "§8§oRarity: §7D",
-      "gui.kaisen.ender_workbench_gui.label_ender_workbench": "Ender Workbench"
+      "gui.kaisen.ender_workbench_gui.label_ender_workbench": "Ender Workbench",
+      "item.kaisen.enderium.description_0": "§8§oRarity: §7D",
+      "item.kaisen.enderium.description_1": "§8§oTier: §71",
+      "item.kaisen.enderium": "§7Enderium"
     }
   },
   "metadata": {

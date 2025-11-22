@@ -61,7 +61,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:RawEnderium"
+      "value": "CUSTOM:Enderium"
     },
     "dropAmount": 1,
     "xpAmountMin": 16,

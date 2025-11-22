@@ -8,15 +8,15 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class RawEnderiumItem extends Item {
-	public RawEnderiumItem() {
+public class EnderiumItem extends Item {
+	public EnderiumItem() {
 		super(new Item.Properties());
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.kaisen.raw_enderium.description_0"));
-		list.add(Component.translatable("item.kaisen.raw_enderium.description_1"));
+		list.add(Component.translatable("item.kaisen.enderium.description_0"));
+		list.add(Component.translatable("item.kaisen.enderium.description_1"));
 	}
 }

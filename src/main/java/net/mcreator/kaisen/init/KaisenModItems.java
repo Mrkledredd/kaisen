@@ -30,7 +30,6 @@ public class KaisenModItems {
 	public static final RegistryObject<Item> ENDER_OAK_PLANKS;
 	public static final RegistryObject<Item> ENDER_KALOYA;
 	public static final RegistryObject<Item> ENDER_GRASS_TALL;
-	public static final RegistryObject<Item> RAW_ENDERIUM;
 	public static final RegistryObject<Item> ENDERIUM_ORE;
 	public static final RegistryObject<Item> ENDERIUM_SWORD;
 	public static final RegistryObject<Item> MOONDER_SPAWN_EGG;
@@ -38,6 +37,7 @@ public class KaisenModItems {
 	public static final RegistryObject<Item> COOKED_MOONDER_MEAT;
 	public static final RegistryObject<Item> MOONDERS_HORN;
 	public static final RegistryObject<Item> ENDER_WORKBENCH;
+	public static final RegistryObject<Item> ENDERIUM;
 	static {
 		WARDENS_CORE = REGISTRY.register("wardens_core", WardensCoreItem::new);
 		OMNIUS = REGISTRY.register("omnius", OmniusItem::new);
@@ -52,7 +52,6 @@ public class KaisenModItems {
 		ENDER_OAK_PLANKS = block(KaisenModBlocks.ENDER_OAK_PLANKS);
 		ENDER_KALOYA = block(KaisenModBlocks.ENDER_KALOYA);
 		ENDER_GRASS_TALL = block(KaisenModBlocks.ENDER_GRASS_TALL);
-		RAW_ENDERIUM = REGISTRY.register("raw_enderium", RawEnderiumItem::new);
 		ENDERIUM_ORE = block(KaisenModBlocks.ENDERIUM_ORE);
 		ENDERIUM_SWORD = REGISTRY.register("enderium_sword", EnderiumSwordItem::new);
 		MOONDER_SPAWN_EGG = REGISTRY.register("moonder_spawn_egg", () -> new ForgeSpawnEggItem(KaisenModEntities.MOONDER, -16777216, -6710785, new Item.Properties()));
@@ -60,6 +59,7 @@ public class KaisenModItems {
 		COOKED_MOONDER_MEAT = REGISTRY.register("cooked_moonder_meat", CookedMoonderMeatItem::new);
 		MOONDERS_HORN = REGISTRY.register("moonders_horn", MoondersHornItem::new);
 		ENDER_WORKBENCH = block(KaisenModBlocks.ENDER_WORKBENCH);
+		ENDERIUM = REGISTRY.register("enderium", EnderiumItem::new);
 	}
 
 	// Start of user code block custom items

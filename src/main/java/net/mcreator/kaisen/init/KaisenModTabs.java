@@ -24,8 +24,8 @@ public class KaisenModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kaisen.ksn_items")).icon(() -> new ItemStack(KaisenModItems.WARDENS_CORE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(KaisenModItems.WARDENS_CORE.get());
 				tabData.accept(KaisenModItems.OMNIUS.get());
-				tabData.accept(KaisenModItems.RAW_ENDERIUM.get());
 				tabData.accept(KaisenModItems.MOONDERS_HORN.get());
+				tabData.accept(KaisenModItems.ENDERIUM.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> KSN_BLOCKS = REGISTRY.register("ksn_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kaisen.ksn_blocks")).icon(() -> new ItemStack(KaisenModBlocks.ENDER_GRASS_BLOCK.get())).displayItems((parameters, tabData) -> {
